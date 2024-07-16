@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#s1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(#1f1f8a); 
+}
+
+header {
+    padding-top: 20px;
+    margin-left: 150px;
+}
+
+#head {
+    margin-left: 350px;
+    display: inline;
+}
+
+.head_opts {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 100px;
+    color: rgb(255, 251, 251);
+    font-family: Verdana;
+}
+
+#buy_now {
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    transition: 0.3s;
+    cursor: pointer;
+    border-color: black;
+}
+
+#buy_now:hover {
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black; /* Changed to black */
+}
+
+#p1 {
+    width: 500px;
+    font-size: 18px;
+    line-height: 25px;
+    color: black; /* Changed to black */
+}
+
+#s1_one {
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 150px;
+    top: 230px;
+}
+
+#img2 {
+    width: 400px;
+    position: relative;
+    left: 720px;
+    bottom: 100px;
+    rotate: 0deg;
+}
+
+#img3 {
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    width: 350px;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: Verdana;
+    color: black; /* Changed to black */
+}
+
+#add_to_cart {
+    margin: 0px;
+    font-size: 18px;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white; /* Changed to white */
+    color: black; /* Changed to black */
+    font-family: Verdana;
+    transition: 0.3s;
+    cursor: pointer;
+    border-color: black;
+}
+
+#add_to_cart:hover {
+    color: white;
+    background-color: black;
+}
+
+#s1_two {
+    position: relative;
+    left: 1150px;
+    bottom: 220px;
+}
+
+#s2 {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(rgb(66, 66, 66), rgb(30, 28, 28), black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s2_one {
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img4 {
+    width: 300px;
+    rotate: deg;
+    display: fixed;
+}
+
+#s2_h2 {
+    color: white;
+}
+
+#s2_two {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#s2_three {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 1px;
+    color: azure;
+}
+
+#s2_four {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#s3 {
+    width: 100vw;
+    height: 200vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#s3_one {
+    width: 95vw;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+#s3_two {
+    width: 95vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.im1 {
+    width: 300px;
+}
+
+#s3_three {
+    margin-top: 40px;
+    width: 95vw;
+    display: flex;
+    height: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#s3_four {
+    width: 95vw;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#s3_five {
+    width: 95vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: white;
+}
+
+#s3_six {
+    margin-top: 20px;
+    width: 95vw;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    word-spacing: 3px;
+}
